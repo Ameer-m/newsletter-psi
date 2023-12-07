@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Newsletter Landing Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.7/css/intlTelInput.css" integrity="sha512-K85yCYZenVqxl8lvtHx01PmUdzOpVmTTcF1Md+aiJwfJDNI0wt0vw+U4XRv+UCylgVliOuUmOfr6ly1/MOjrZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      .intl-tel-input {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="./images/ad-real-estate-logo-only-new.png" alt="PSI" class="h-12 w-12">
+          
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="flex flex-col items-center justify-center px-4 mx-auto container pt-4 md:px-0">
+        <div class="relative">
+
+          <img src="./images/0.webp" class="w-full mx-auto shadow-2xl md:w-auto " alt="PSI NewsLetter" />
+          <div class="w-full absolute top-6 left-6 md:top-12 md:left-12 uppercase">
+            <p><span class="text-2xl lg:text-6xl md:text-4xl text-[#333]">List it</span> <span class="text-2xl lg:text-6xl md:text-4xl font-black text-[#008001]"> Right</span></p>
+            <p><span class="text-2xl lg:text-6xl md:text-4xl  text-[#333]">Sale it</span> <span class="text-2xl lg:text-6xl md:text-4xl font-black text-[#008001]"> Fast</span></p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center py-12 md:py-16 w-full">
+          <p class="text-lg md:text-2xl text-center md:text-left w-full py-5 font-bold">Registration</p>
+          <form class="wpcf7-form init w-full" aria-label="Contact form" data-status="init">
+            <div style="display: none;">
+                <input type="hidden" name="_wpcf7" value="2926">
+                <input type="hidden" name="_wpcf7_version" value="5.7.4">
+                <input type="hidden" name="_wpcf7_locale" value="en_US">
+                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2926-o1">
+                <input type="hidden" name="_wpcf7_container_post" value="0">
+                <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+            </div>
+            <div class="row display-flex justify-content-center w-full">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                    <div class="btn-custom-1 form-group my-1">
+                        <label class="px-4 " for="firstName_Inquire">First Name</label>
+                        <p>
+                            <span class="wpcf7-form-control-wrap" data-name="your-name">
+                                <input class="w-full border rounded-md border-black py-2 px-2 wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control required" aria-required="true" aria-invalid="false" id="firstName_Inquire" placeholder="First Name" value="" type="text" name="your-name" required>
+                            </span>
+                            <span id="firstName_InquireV" style="color:red !important; display:none !important;">-</span>
+                        </p>
+                    </div>
+                    <div class="btn-custom-1 form-group my-1">
+                        <label class="px-4 " for="lastName_Inquire">Last Name</label>
+                        <p>
+                            <span class="wpcf7-form-control-wrap" data-name="lname">
+                                <input class="w-full border rounded-md border-black py-2 px-2 wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control required" aria-required="true" aria-invalid="false" id="lastName_Inquire" placeholder="Last Name" value="" type="text" name="lname" required>
+                            </span>
+                            <span id="lastName_InquireV" style="color:red !important; display:none !important;">-</span>
+                        </p>
+                    </div>
+
+                    <div class="btn-custom-1 form-group d-flex my-1">
+                      <label class="px-4 " for="phonenumber_Inquire">Phone Number</label>
+                      <p>
+                          <span class="wpcf7-form-control-wrap" data-name="your-phone">
+                              <input type="tel" class="w-full border rounded-md border-black py-2 px-2 txtbox" size="40" maxlength="15" minlength="9" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control phonenumber required" id="phonenumber_Inquire" aria-required="true" aria-invalid="false" placeholder="536356356" value="" type="tel" name="your-phone" required />
+                          </span>
+                          <span id="phonenumber_InquireV" style="color:red !important; display:none !important;">-</span>
+                      </p>
+                  </div>
+
+                    <div class="btn-custom-1 form-group my-1">
+                        <label class="px-4 " for="email_Inquire">Email</label>
+                        <p>
+                            <span class="wpcf7-form-control-wrap" data-name="your-email">
+                                <input class="w-full border rounded-md border-black py-2 px-2 wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control required" aria-required="true" aria-invalid="false" id="email_Inquire" placeholder="Email" value="" type="email" name="your-email" required>
+                            </span>
+                            <span id="email_InquireV" style="color:red !important; display:none !important;">-</span>
+                        </p>
+                    </div>
+        
+                </div>
+            </div>
+            <div class="form-group col-md-12 mt-6">
+                <p class="flex justify-center md:justify-start"><input style="background-color: #F27234!important;color: #fff;border-color: #F27234!important;" class="py-2 px-4 rounded-md btn btn-violet btn-block submitid w-100 Inquire" type="button" id="Jouri_Form_Inquire" value="Register" id="submit-btn1"></p>
+            </div>
+            <div class="wpcf7-response-output" aria-hidden="true"></div>
+        </form>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- <script>
+      const phoneInput = document.querySelector("#phonenumber_Inquire");
+      intlTelInput(phoneInput, {});
+    </script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.7/js/intlTelInput.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.7/js/utils.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="79aff119e339e28782258c20-text/javascript"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    function BtnLoadingTrue() {
+      $(".Inquire").attr("disabled", true);
+      $('.Inquire').val('Submitting...');
+    }
+
+    function BtnLoadingFalse() {
+      $(".Inquire").attr("disabled", false);
+      $('.Inquire').val('Submmited');
+      $('.Inquire').css('background-color', 'green');
+    }
+
+    $(document).on("click", ".Inquire", function() {
+      Inquire1();
+    });
+
+    function Inquire1() {
+      var firstName = $('#firstName_Inquire').val();
+      var lastName = $('#lastName_Inquire').val();
+      var email = $('#email_Inquire').val();
+      var phone = $('#phonenumber_Inquire').val();
+      var countrycode = $("#phonenumber_Inquire").intlTelInput("getSelectedCountryData").dialCode;
+      var CampaignMedium = '';
+      var CampaignSource = '';
+      var MobilePhone = '';
+
+      var mailRegEx = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+      $("#firstName_InquireV").css({
+        'display': 'none'
+      });
+      $("#lastName_InquireV").css({
+        'display': 'none'
+      });
+      $("#email_InquireV").css({
+        'display': 'none'
+      });
+      $("#phonenumber_InquireV").css({
+        'display': 'none'
+      });
+
+      if (firstName == "") {
+        $("#firstName_Inquire").css({
+          'border-color': 'red'
+        });
+        $("#firstName_InquireV").css({
+          'display': 'block'
+        });
+        $("#firstName_InquireV").text("Please Fill this!");
+        $("#firstName_InquireV").focus();
+      } else if (lastName == "") {
+        //   $("#Password").css({ 'border-color': 'red' });
+        $("#lastName_InquireV").css({
+          'display': 'block'
+        });
+        $("#lastName_InquireV").text("Please Fill this!");
+        $("#lastName_InquireV").focus();
+      } else if (email == "") {
+        //   $("#Password").css({ 'border-color': 'red' });
+        $("#email_InquireV").css({
+          'display': 'block'
+        });
+        $("#email_InquireV").text("Please Fill this!");
+        $("#email_InquireV").focus();
+      } else if (!email.match(mailRegEx)) {
+        $("#email_InquireV").css({
+          'display': 'block'
+        });
+        $("#email_InquireV").text("Please Fill this!");
+        $("#email_InquireV").focus();
+      } else if (phone == "") {
+        //   $("#Password").css({ 'border-color': 'red' });
+        $("#phonenumber_InquireV").css({
+          'display': 'block'
+        });
+        $("#phonenumber_InquireV").text("Please Fill this!");
+        $("#phonenumber_InquireV").focus();
+      } else if (phone.length < 9) {
+        //   $("#Password").css({ 'border-color': 'red' });
+        $("#phonenumber_InquireV").css({
+          'display': 'block'
+        });
+        $("#phonenumber_InquireV").text("Please Fill this!");
+        $("#phonenumber_InquireV").focus();
+      } else {
+        var data = '';
+        var url = window.location.href;
+        console.log('requestData=>', url);
+        $.ajax({
+          url: 'form-handler.php',
+          type: 'POST',
+          data: {
+            firstname: firstName,
+            lastname: lastName,
+            Emailaddress: email,
+            Phonenumber: phone,
+            countrycode: countrycode,
+            url: url
+          },
+          dataType: 'JSON',
+          beforeSend: function() {
+            BtnLoadingTrue();
+          },
+          success: function(data) {
+            BtnLoadingFalse();
+            if (data.result == 'Email Sent') {
+              window.location.href = "https://psinv.net/thankyou/?url=https://psinv.net";
+            }
+          }
+        });
+      }
+    }
+  });
+
+  $(function() {
+    var code = "+971"; // Assigning value from model.
+    $('#phonenumber_Inquire').val(code);
+    $('#phonenumber_Inquire').intlTelInput({
+      autoHideDialCode: true,
+      autoPlaceholder: "ON",
+      dropdownContainer: document.body,
+      formatOnDisplay: true,
+      hiddenInput: "full_number",
+      initialCountry: "auto",
+      nationalMode: true,
+      placeholderNumberType: "MOBILE",
+      preferredCountries: ['US'],
+      separateDialCode: true
+    });
+  });
+</script>
+
+  </body>
+</html>
